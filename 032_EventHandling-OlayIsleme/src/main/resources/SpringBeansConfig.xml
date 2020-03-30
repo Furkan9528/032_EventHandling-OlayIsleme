@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	
+	<bean id="sozlerBean" class="com.furkankara.Sozler">
+		<property name="cumle" value="Spring Catisi Egitim guzeldir hostur ama ne"></property>
+	</bean>
+	<bean id="baslatmaBean"
+		class="com.furkankara.ContextOlayBaslatmaIsleyici">
+	</bean>
+	<bean id="durdurmaBean"
+		class="com.furkankara.ContextOlayDurdurmaIsleyicisi">
+	</bean>
+	<bean id="kapatmaBean"
+		class="com.furkankara.ContextOlayKapatmaIsleyicisi">
+	</bean>
+	<bean id="tazelemeBean"
+		class="com.furkankara.ContextOlayTazelemeIsleyicisi">
+	</bean>
+</beans>
